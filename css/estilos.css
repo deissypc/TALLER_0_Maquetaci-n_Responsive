@@ -91,7 +91,7 @@ nav a{
  background-color: rgba(0,0,0,0.35);
  text-align: center;
  padding: 0.5rem;
- font-size: 1.5em;
+ font-size: 1.5rem;
 }
 
 .features-description{
@@ -176,6 +176,68 @@ nav a{
  display: flex;
  margin: 1rem;
 }
+
+/*Login*/
+#login{
+ background-image: url(../img/hab.jpg);
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-size: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+}
+
+.imagen{
+ width: 100px;
+ height: 100px;
+}
+
+.lo{
+ background-color: #00325aea;
+ display: flex;
+ flex-direction: column;
+ min-width: 500px;
+ max-width: 520px;
+ height: 50%;
+ justify-content: center;
+ align-items: center;
+ font-size: 150%;
+}
+
+.lo input{
+ border: 1px solid #000;
+ margin-bottom: 15px;
+ text-align: center;
+ width: 80%;
+ padding: 10px 15px;   
+}
+
+.blogin{
+ background-color: var(--negro2);
+ width: 75%;
+ height: 50px;
+}
+
+.r{
+ background-color: var(--negro2);
+ color: white;
+ font-size: 150%;
+}
+
+.g{
+ color: var(--negro2);
+}
+
+
+
+
+
+
+
+
+
 
 
 
