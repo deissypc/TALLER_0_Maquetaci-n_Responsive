@@ -42,6 +42,12 @@ nav{
  padding: 1rem;
 }
 
+.but{
+ background-color: var(--azuloscuro);
+ font-family: 'Marcellus', serif;
+ font-size: 1.1rem;
+}
+
 nav a{
  color: var(--blanco);
  text-decoration: none;
@@ -49,6 +55,30 @@ nav a{
 
 .logo img{
  height: 3rem;
+}
+
+#inicio{
+ background-image: url(../img/slide1.jpg);
+ background-size: cover;
+ display: flex;
+ height: 75vh;
+}
+
+.ini{
+ background-color: rgba(0,0,0,0.35);
+ display: flex;
+ align-self: flex-end;
+ color: white;
+ width: 100%;
+ padding: 2.1em;
+ font-size: 250%;
+}
+
+.info{
+ justify-content: space-around;
+ display: flex;
+ margin: 1rem;
+ padding: 2rem;
 }
 
 #features{
@@ -95,6 +125,59 @@ nav a{
 .feature-black{
  background-color: rgba(0,0,0,0.59);
 }
+
+#ubicanos{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 2rem;
+ text-align: center;
+ font-size: 150%;
+}
+
+#opiniones{
+ color: white;
+ padding-top: 1rem;
+ width: 100%;
+}
+
+.op{
+ background-color: #000;
+ font-size: 150%;
+ text-align: center;
+ padding: 2.2rem;
+}
+
+.opc{
+ display: flex;
+ justify-content: space-around;
+}
+
+.diego{
+ background-image: url(../img/azul.png);
+ margin: 1rem;
+ padding: 2rem;
+ width: 18%;
+}
+
+#footer{
+ color: white;
+ padding-top: 1rem;
+ width: 100%;
+}
+
+.tor{
+ display: flex;
+ background-color: #000;
+ justify-content: space-around;
+}
+
+.f{
+ display: flex;
+ margin: 1rem;
+}
+
+
 
 
 
