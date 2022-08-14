@@ -118,6 +118,15 @@ nav a:hover{
  width: 100%;
 }
 
+.arriba {
+    transform: scale(1);
+    transition: all 0.5s;
+    transform: translateY(-100vw);
+    display: none;
+
+}
+ 
+  
 .menu-button{
  display: flex;
  background-color: var(--azuloscuro);
@@ -166,6 +175,10 @@ nav{
 .navbar-hr{ 
  display: none;
 }
+nav a:hover{
+  background-color: #0B3860;
+  width: 70%;
+ }
 
 .menu-button{
  background-color:var(--azuloscuro);

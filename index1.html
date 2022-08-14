@@ -12,11 +12,11 @@
     <div id="container-grid">
         <nav>
             <div  class="logo">
-                <img src="IMG/Hotelia horizontal blanco.svg">   
-                <i class="fa-solid fa-bars"></i>
+                <img src="img/Hotelia horizontal blanco.svg">   
+                <i class="fa-solid fa-bars" id="si"></i>
             </div>    
     
-            <div class="menu">
+            <div class="menu" id="menu">
                 <a href="index.html" class="item" >Inicio</a>
                 <a href="ubicanos.html"  class="item">Ubícanos</a>
                 <a href="opiniones.html" class="item" >Opiniones</a>
@@ -24,14 +24,15 @@
                 <a href="views/login.html" class="item"><button class="navbar-botton"><i class="fa-solid fa-user"></i> Iniciar Sesion</button></a>
             </div>
         </nav>
-       
-    </div>
+        <script src="js/menu.js"></script>
+   
+    
     <section id="inicio">
         <h1 class="ini">Lorem ipsum dolor sit ameteliter,<br>
                         consectetur adipiscing elit.
         </h1>
      </section>
-    
+    <section id="hote">
      <div class="info">
         <div>
             <p>Estamos ubicados en el barrio La Cabrera al norte de Bogota, en un contexto de<br>
@@ -49,6 +50,7 @@
             <img width="200" height="200" src="img/Hotelia negro vertical.svg">
         </div>
      </div>
+    </section>
      
      <section id="features">
         <h2 class="features-title">Razones por las que disfrutaras con nosotros</h2>
@@ -93,40 +95,52 @@
         </div>
         <div class="opc">
             <div class="diego">
-                <div>
+                <div class="m">
                     <img width="70" height="70" src="img/diego1.jpg">
                     <h3>Diego Rodriguez</h3>
+                    <div class="s">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Blanditis magnam et inventore voluptatem exercitationem vitae repudiandae eius provident consectetur cumque.</p>
+                </div>
                 </div>
             </div>
             <div class="diego">
-                <div>
+                <div class="m">
                     <img width="70" height="70" src="img/diana.jpg">
                     <h3>Diana Garcia</h3>
+                    <div class="s">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Blanditis magnam et inventore voluptatem exercitationem vitae repudiandae eius provident consectetur cumque.</p>
-                </div>
-            </div>
-            <div class="diego">
-                <div>
-                    <img width="70" height="70" src="img/diego1.jpg">
-                    <h3>Diego Rodriguez</h3>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Blanditis magnam et inventore voluptatem exercitationem vitae repudiandae eius provident consectetur cumque.</p>
                 </div>
             </div>
         </div>
+            <div class="diego">
+                <div class="m">
+                    <img width="70" height="70" src="img/diego1.jpg">
+                    <h3>Diego Rodriguez</h3>
+                    <div class="s">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+               <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Blanditis magnam et inventore voluptatem exercitationem vitae repudiandae eius provident consectetur cumque.</p>
+                </div>
+        </div>
+    </div>
+    </div>
      </section>
     
      <section id="footer">
@@ -139,28 +153,30 @@
                            Iure a ratione est, quidem exercitationem blanditiis vel dolores.<br>
                         Eius, suscipit itaque.</p>
                         <br>
+                        <div class="p">
                         <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
                     </div>
                 </div>
-                <hr>
+                </div>
+                <hr class="footer-hr" noshade="">
                 <div class="f">
                     <div>
-                        <h3>Avenida carrera 8, #12A-42, Bogota DC,<br>
-                            Colombia</h3>
+                        <h><i class="fa-solid fa-location-dot"></i>Avenida carrera 8, #12A-42, Bogota DC,<br>
+                            Colombia</p>
                         <br>
                         <p><i class="fa-solid fa-phone"></i>+57 601 4567899</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="footer-hr" noshade="">
                 <div class="f">
                     <p>politicas de privacidad<br>
                         politicas de privacidad</p>
                 </div>
             </div>
         </div>
-     </section>
-        
+        </section>
+    </div>
     </body>
     </html>
