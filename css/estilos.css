@@ -985,6 +985,10 @@ nav a:hover{
   background-color: #0B3860;
   width: 100%;
  }
+ .h a{
+  text-decoration: none;
+  color: white;
+ }
  .y select{
   display: flex;
   width:130%;
@@ -1076,6 +1080,10 @@ nav a:hover{
     background-color: #0B3860;
     width: 100%;
    }
+   .h a {
+    text-decoration: none;
+    color: white;
+  }
    .ico{
     background-color: var(--azulnegro);
     display: flex;
@@ -1288,6 +1296,10 @@ height:70px;
     font-size:120%;
     
     }
+    .hi a {
+      text-decoration: none;
+      color: white;
+    }
     .ico1 p:hover{
       background-color: #0B3860;
       width: 100%;
@@ -1344,6 +1356,10 @@ height:70px;
       background-color: #0B3860;
       width: 100%;
      }
+     .hi a {
+      text-decoration: none;
+      color: white;
+    }
      .ico1{
       background-color: var(--azulnegro);
       display: flex;
@@ -1582,6 +1598,10 @@ padding:20px ;
           background-color: #0B3860;
           width: 100%;
          }
+         .hi1 a {
+          text-decoration: none;
+          color: white;
+        }
         .ini2{ 
           background-color:  #333333;
            display: flex;
@@ -1622,6 +1642,10 @@ padding:20px ;
             height: 100vh;
             
            }
+           .hi1 a {
+            text-decoration: none;
+            color: white;
+          }
            
            .lis1{
             background-color: #1f5a8aea;
@@ -1925,6 +1949,10 @@ padding:20px ;
           width: 100%;
          }
          .ico4 a{
+          text-decoration: none;
+          color: white;
+        }
+        .hi1 a {
           text-decoration: none;
           color: white;
         }

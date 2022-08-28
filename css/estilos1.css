@@ -531,7 +531,7 @@ padding: 0.5rem;
                   
                   display: grid;
                  
-                  grid-template-rows: 100px auto auto;
+                  grid-template-rows: 100px 100px 100px;
                   width: 110%;
                   height: 86vh;
                   color: white;
@@ -553,13 +553,17 @@ padding: 0.5rem;
                  
                   grid-template-rows: auto auto;
                   width: 110%;
-                  
+                  text-align: center;
                   color: white;
                   grid-template-columns:auto auto;
                   font-size: 150%;
-                  justify-content: flex-end;
+                  
                   
                  
+                }
+                .hi1 a{
+                  text-decoration: none;
+                  color: white;
                 }
                 .lis{
                   display: grid;
@@ -723,6 +727,10 @@ padding: 0.5rem;
                      
                      
                    }
+                   .hi1 a {
+                    text-decoration: none;
+                    color: white;
+                  }
                    .ico4 p:hover{
                     background-color: #0B3860;
                     width: 100%;
